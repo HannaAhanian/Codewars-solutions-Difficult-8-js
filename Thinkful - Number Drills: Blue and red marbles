@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/5862f663b4e9d6f12b00003b/train/javascript
+function guessBlue(blueStart, redStart, bluePulled, redPulled) {
+  let totalStart = blueStart + redStart; 
+  let remained = totalStart - ( bluePulled + redPulled);
+  let remainedBlue = blueStart -bluePulled;
+  return remainedBlue / remained;
+}
