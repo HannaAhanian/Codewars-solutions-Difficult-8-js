@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/588417e576933b0ec9000045/train/javascript
+function seatsInTheater(nCols, nRows, col, row) {
+  let totalSeats = nCols * nRows;
+  let newColNumber = nCols - col + 1;
+  let newRowNumber = nRows - row;
+  let peopleBehindMe = newColNumber * newRowNumber;
+  
+  return peopleBehindMe;
+}
